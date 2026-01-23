@@ -1,7 +1,7 @@
-import { Instruction } from "./instruction.js";
-import { Direction } from "./direction.js";
-import { Position } from "./position.js";
-import { PlateauSize } from "./plateauSize.js";
+import { Instruction } from "../objects/instruction.js";
+import { Direction } from "../objects/direction.js";
+import { Position } from "../objects/position.js";
+import { PlateauSize } from "../objects/plateauSize.js";
 
 describe("Input Layer types", () => {
   test("Instruction enum contains valid instructions", () => {
