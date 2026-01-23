@@ -1,0 +1,10 @@
+import { Direction } from "./direction.js";
+
+export class Position {
+  constructor(x, y, direction) {
+    this.x = x;
+    this.y = y;
+    this.direction = direction;
+  }
+}
+
